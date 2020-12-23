@@ -6,6 +6,19 @@
     <title>Java_week_8</title>
 </head>
 <body>
-    
+    <script>
+        var sub1, sub2,sub3,avg_marks ;
+        sub1=prompt("Please enter the marks of subject 1: ");
+        sub2=prompt("Please enter the marks of subject 2: ");
+        sub3=prompt("Please enter the marks of subject 3: ");
+        avg_marks= (parseInt (sub1) + parseInt (sub2) + parseInt(sub3))/3;
+        document.write("Your average marks are: "+avg_marks)
+        document.write("<br>"); 
+        if (avg_marks>80)
+        {
+            document.write("You are above standard, Admission Granted!")
+        }
+
+    </script>
 </body>
 </html>
